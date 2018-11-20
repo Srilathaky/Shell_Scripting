@@ -1,0 +1,26 @@
+#!/bin/bash
+if [ $# -ne 1 ]
+then
+echo "Usage:Number $0"
+exit 1
+fi
+num=$1
+echo "NUmber is $num"
+rev=0
+
+while [ $num -gt 0 ] 
+do
+rev=$((rev * 10 + $num % 10))
+num=$(($num / 10))
+done
+echo "reversed number is $rev"
+: '
+while [ $num -gt 0 ]
+do
+a=`expr $rev \* 10`
+mod=`expr $num % 10`
+rev=`expr $a + $mod`
+num=`expr $num / 10`
+done
+echo "Reversed number is =$rev"
+'

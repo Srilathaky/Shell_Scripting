@@ -1,0 +1,12 @@
+#! /bin/bash
+fruit="Papaya"
+
+case "$fruit" in 
+"Apple") echo "Fruit is apple";;
+
+"Banana") echo "fruit is banana";;
+
+"Papaya") echo "fruit is papaya";;
+
+*) echo "fruit is not there"
+esac

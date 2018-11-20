@@ -1,0 +1,8 @@
+Hi
+Hello
+This is a file
+Hello
+Linux
+Linux
+Hi
+Linux Shell Scripting

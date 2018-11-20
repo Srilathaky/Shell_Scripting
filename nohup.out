@@ -1,0 +1,6 @@
+sort: read failed: -: Bad file descriptor
+total 16
+-rwxrwxrwx 1 srilatha.y srilatha.y  28 Aug 21 09:06 config.sh
+-rwxrwxr-x 1 srilatha.y srilatha.y 123 Aug 21 11:11 funtion_return_value.sh
+-rwxrwxrwx 1 srilatha.y srilatha.y  63 Aug 21 09:33 main.sh
+-rw------- 1 srilatha.y srilatha.y  42 Aug 23 09:40 nohup.out

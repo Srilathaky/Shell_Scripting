@@ -1,0 +1,9 @@
+#!/bin/bash
+echo "Enter string"
+s=
+if [ -n "$s" ]
+then
+echo "s is not null and the value is $s"
+else
+echo "s is null and the value is $s"
+fi

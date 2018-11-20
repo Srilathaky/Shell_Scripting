@@ -1,0 +1,24 @@
+#!/bin/bash
+echo "Enter first String"
+read str1
+echo "Enter second String"
+read str2
+if [ "${str1,,}" = "${str2,,}" ]
+then
+echo "Strings are equal"
+elif [ str1 != str2 ]
+then
+echo "Strings are not equal"
+fi
+
+echo "length of the string is = ${#str1} "
+
+
+
+if [ `echo $str1 | tr [:upper] [:lower]` = `echo $str2 | tr [:upper] [:lower]` ]
+then
+echo "equal"
+else
+echo "not equals"
+fi
+

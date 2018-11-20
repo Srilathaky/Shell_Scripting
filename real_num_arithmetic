@@ -1,0 +1,5 @@
+#!/bin/bash
+a=2.5
+b=5.5
+
+echo `expr "$a + $b" | bc`
